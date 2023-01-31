@@ -1,0 +1,315 @@
+/* 局部 */
+@font-face {
+    font-family: HYTiaoTiao;
+    src: url('../fonts/HYTiaoTiao.ttf') format('truetype');
+}
+
+.header {
+    height: 42px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bkm {
+    float: left;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.bkm img {
+    float: left;
+    width: 38px;
+    margin: 2px;
+    border-radius: 50%;
+}
+
+.bkm h3 {
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-left: 5px;
+}
+
+.nav {
+    float: left;
+    margin-left: 20px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 20px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+.search {
+    float: right;
+    width: 242px;
+    height: 26px;
+    margin: 8px 30px;
+}
+
+.search input {
+    float: left;
+    width: 180px;
+    height: 26px;
+    border: 1px solid blue;
+    border-right: 0;
+    border-radius: 30px 0 0 30px;
+    font-size: 14px;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    outline: none;
+}
+
+.search button {
+    float: left;
+    width: 46px;
+    height: 28px;
+    border: 1px solid blue;
+    border-left: 0;
+    border-radius: 0 30px 30px 0;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDQ4IDQ4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0yMSAzOEMzMC4zODg4IDM4IDM4IDMwLjM4ODggMzggMjFDMzggMTEuNjExMiAzMC4zODg4IDQgMjEgNEMxMS42MTEyIDQgNCAxMS42MTEyIDQgMjFDNCAzMC4zODg4IDExLjYxMTIgMzggMjEgMzhaIiBmaWxsPSJub25lIiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik0yNi42NTcgMTQuMzQzMUMyNS4yMDkzIDEyLjg5NTQgMjMuMjA5MyAxMiAyMS4wMDAxIDEyQzE4Ljc5MSAxMiAxNi43OTEgMTIuODk1NCAxNS4zNDMzIDE0LjM0MzEiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMzMuMjIxNiAzMy4yMjE3TDQxLjcwNjkgNDEuNzA3IiBzdHJva2U9IiMzMzMiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PC9zdmc+);
+    background-color: rgba(255, 255, 255, 0.7);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background: url(img/11.png); 添加背景图片*/
+}
+
+/* 横幅区域 banner */
+
+.banner {
+    padding: 10px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.bd {
+    padding: 0 20px;
+}
+
+.bd ul li {
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.bd ul li h4 {
+    font-size: 16px;
+    color: black;
+}
+
+.bd ul li p {
+    font-size: 12px;
+    color: darkgray;
+}
+
+.bd .more {
+    display: block;
+    height: 38px;
+    border: 1px solid rgb(0, 89, 255);
+    text-align: center;
+    line-height: 38px;
+    margin-top: 5px;
+    color: rgb(0, 89, 255);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* 音乐 music */
+.music {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.music_1::after {
+    content: "";
+    float: left;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    margin: 10px 40px 0 60px;
+}
+
+.music img {
+    float: left;
+    width: 45px;
+    margin: 10px 0 0 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.music .music_hd {
+    float: left;
+    margin: 12px 0 0 15px;
+}
+
+.music .music_song {
+    font-size: 16px;
+}
+
+.music .music_singer {
+    font-size: 14px;
+    color: #7d7d7d;
+}
+
+.music audio {
+    float: left;
+    margin: 5px 0 5px 15px;
+}
+
+
+/* 壁纸 wallpaper */
+.wp_hd {
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px 10px 0 0;
+}
+
+.wp_hd h3 {
+    float: left;
+    font-size: 20px;
+    line-height: 45px;
+    text-indent: 2em;
+}
+
+.wp_hd span {
+    float: right;
+    font-family: 'icomoon';
+    font-size: 14px;
+    line-height: 45px;
+    margin: 0 10px 0 10px;
+}
+
+.wp_hd a {
+    float: right;
+    font-size: 14px;
+    line-height: 45px;
+    /* margin-right: 30px; */
+    color: #a5a5a5;
+}
+
+.wp_bd ul {
+    width: 1175px;
+    height: 540px;
+}
+
+.wp_bd ul li {
+    position: relative;
+    float: left;
+    width: 365px;
+    height: 250px;
+    margin: 10px 0 0 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wp_bd ul li div {
+    height: 205.26px;
+    background-color: rgb(0, 0, 0);
+}
+
+.wp_bd ul li div>img {
+    width: 100%;
+    /* display: inline-block; */
+}
+
+.wp_bd ul li h4 {
+    margin: 10px 20px 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.wp_bd ul li div[class*="wp_big"] {
+    position: absolute;
+    top: auto;
+    z-index: 1;
+    width: 1150px;
+    display: none;
+}
+
+/* 放大 */
+.wp_small1:hover .wp_big1 {
+    display: block;
+    transition: all 0.6s;
+    transform: scale(1.1);
+    left: -12.5px;
+}
+
+.wp_small2:hover .wp_big2 {
+    display: block;
+    transform: scale(1.1);
+    left: -392px;
+
+}
+
+.wp_small3:hover .wp_big3 {
+    display: block;
+    transform: scale(1.1);
+    left: -770.4px;
+}
+
+.wp_small4:hover .wp_big4 {
+    display: block;
+    transform: scale(1.1);
+    left: -12.5px;
+}
+
+.wp_small5:hover .wp_big5 {
+    display: block;
+    transform: scale(1.1);
+    left: -392px;
+}
+
+.wp_small6:hover .wp_big6 {
+    display: block;
+    transform: scale(1.1);
+    left: -770.4px;
+}
+
+/* 舔狗日记 */
+.tg_hd {
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px 10px 0 0;
+}
+
+.tg_hd h3 {
+    float: left;
+    font-size: 20px;
+    line-height: 45px;
+    text-indent: 2em;
+}
+
+.tg_hd button {
+    float: right;
+    font-family: 'icomoon';
+    outline: none;
+    font-size: 25px;
+    line-height: 45px;
+    margin: 0 50px 0 10px;
+    padding: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0)
+}
+
+.tg>h3 {
+    padding: 40px;
+}
+
+#sentence {
+    font-family: 'HYTiaoTiao';
+    font-size: 30px;
+    text-align: center;
+}
