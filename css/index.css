@@ -140,6 +140,7 @@
     float: left;
     height: 40px;
     border: 1px solid rgba(0, 0, 0, 0.7);
+    background-color: black;
     margin: 10px 40px 0 60px;
 }
 
@@ -242,7 +243,6 @@
 /* 放大 */
 .wp_small1:hover .wp_big1 {
     display: block;
-    transition: all 0.6s;
     transform: scale(1.1);
     left: -12.5px;
 }
